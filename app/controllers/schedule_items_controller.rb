@@ -3,6 +3,7 @@ class ScheduleItemsController < ApplicationController
   end
 
   def index
+		@schedule_items = ScheduleItem.all
   end
 
   def destroy

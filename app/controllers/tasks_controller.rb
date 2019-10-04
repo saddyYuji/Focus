@@ -1,5 +1,10 @@
 class TasksController < ApplicationController
-  def new
+	def index
+		@task_items = Task.all
+	end
+
+	def new
+
   end
 
   def create
