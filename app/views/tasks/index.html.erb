@@ -1,0 +1,28 @@
+<%= render 'layout/title', title = @title %>
+
+<div class="row">
+	<div class="col-xs-2">
+		<div class="mg0 task_all">
+			<h4>全てのタスク</h4>
+		</div>
+		<div class="mg0 task_todo">
+			<h4>予定タスク</h4>
+		</div>
+		<div class="mg0 task_set">
+			<h4>タスクセット</h4>
+		</div>
+	</div>
+	<div class="col-xs-10">
+		<div class="row search-bar">
+			<!-- 検索フォームここ -->
+		</div>
+		<div class="row">
+			<label><!--ここに選択されてるタスク種類--></label>
+			<% @task_items.each do |ti| %>
+
+				
+			<% end %>
+		</div>
+	</div>
+
+</div>
